@@ -79,7 +79,7 @@ export default function App() {
 
    try {
 
-const res = await fetch("/apI/chat", {
+const res = await fetch("/api/chat", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
